@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.infoTile{
+    background-color: white;
+}
+
+.quoteTile {
+    background-color: #E5E7EB;
+}
+
+.ctaTile {
+    background-color: white;
+}
+
+.block > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    /* border-color: #3882f6;
+    border-width: bold; */
+}
+
+img {
+    max-width: 350px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
+}
+
+.introTile {
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+    align-items: center;
+    margin: 100px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 4px 20px;
+    margin: 12px 0;
+}
+
+.infoTile {
+    text-align: center;
+    padding: 30px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+h2 {
+    margin: 25px;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.block > div {
+    max-width: 99px;
+    margin-bottom: 50px;
+}
+
+.quoteTile {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.quote {
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+    max-width: 600px;
+}
+
+.author {
+    text-align: end;
+}
+
+.ctaTile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.cta {
+    min-width: 65%;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 80px;
+    border-radius: 8px;
+    color: white;
+}
+
+.cta > button {
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 22px;
+    font-size: 12px;
+}
